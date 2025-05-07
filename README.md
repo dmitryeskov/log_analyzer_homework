@@ -9,7 +9,12 @@ https://github.com/dmitryeskov/log_analyzer_homework.git
 ```
 pip install -r requirements.txt
 ```
-### 3. Запустить
+### 3. Создать в репозитории каталог log и добавить логи для обработки
+```
+mkdir log
+```
+
+### 4. Запустить
 ### По умолчанию скрипт ищет последний (по дате в названии файла) лог в папке log
 ### Отчеты сохраняет в папку reports
 ### Отчеты формируются по шаблону report.html из templates
@@ -17,7 +22,7 @@ pip install -r requirements.txt
 python log_analyzer.py
 ```
 
-### 4. Чтобы запустить с другой конфигурацией, нужно указать путь к файлу через --config
+### 5. Чтобы запустить с другой конфигурацией, нужно указать путь к файлу через --config
 ```
 python log_analyzer.py --config config.json
 ```
