@@ -1,1 +1,1 @@
-'*INIT' 
+* Log Analyzer
